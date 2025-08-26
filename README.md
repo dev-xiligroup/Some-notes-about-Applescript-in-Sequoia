@@ -23,7 +23,7 @@ With Process Finder, to use "Make new folder," it is necessary to test for the e
 
 ## With ShortCuts and action “run Shell Script”
 
-With “I ❤️ booklets” application (and his action inside Shorcuts), a booklet can be produced in your printer tray by creating a workflow.
-
+With “I ❤️ booklets” application (and his action inside Shortcuts), a booklet can be produced in your printer tray by creating a workflow.
+See the [folder](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/PrintBookletWorkflow)
 
 ## soon more tips...
