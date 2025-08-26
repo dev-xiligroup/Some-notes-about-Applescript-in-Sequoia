@@ -2,6 +2,8 @@
 
 The events open successively printer sheet, Save pdf sheet, folder sheet and optionally replace sheet (if pdf file exists). Using index (and not name), the script is ready for most languages.
 
+![screenshot 3](sheet_folder_select.png)
+
 Shortcuts actions before prepare inputs...
 
 Screenshots to
