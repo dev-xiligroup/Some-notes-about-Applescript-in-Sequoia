@@ -4,9 +4,10 @@ The events open successively printer sheet, Save pdf sheet, folder sheet and opt
 
 ![screenshot 3](sheet_folder_select.png)
 
-Shortcuts actions before prepare inputs...
+Shortcuts actions before prepare inputs for “run AppleScript”
 
-Screenshots to
+Screenshots top and bottom : the full script is below
+
 ![screenshot 1](Shortcuts_top.png)
 
 ![screenshot 2](Shortcuts_bottom.png)
