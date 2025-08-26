@@ -18,3 +18,4 @@ A shell use command LPR
 The target printer (`-P $1`) (and his good name for lpr can be found with **lpstat** -a *(with underscore replacing -)* OKI_C5750_FBD3A9 and not with - like in visible name in printer center ;) -p -d give default…
 
 [webpage of I love booklets](https://www.douwere.com/ilovebooklets/en/?o=app)
+
