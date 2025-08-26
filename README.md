@@ -21,4 +21,9 @@ In most cases, it is strongly recommended to use this POSIX file object outside 
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.
 [this script](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/ShellBetter2makeFolder.applescript)
 
+## With ShortCuts and action “run Shell Script”
+
+With “I ❤️ booklets” application (and his action inside Shorcuts), a booklet can be produced in your printer tray by creating a workflow.
+
+
 ## soon more tips...
