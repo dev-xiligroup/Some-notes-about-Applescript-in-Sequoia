@@ -12,3 +12,4 @@ A POSIX file object is displayed as a **slash**-delimited path preceded by a POS
 In most cases, it is strongly recommended to use this POSIX file object outside of the process Finder to define variables that are then used within the process.
 ## Make a new (sub) folder
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.
+[a link](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/ShellBetter2makeFolder.applescript)
