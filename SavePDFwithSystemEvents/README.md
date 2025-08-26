@@ -5,4 +5,4 @@ Screenshots to
 
 ![screenshot 2](Shortcuts_bottom.png)
 
-See the script inside “run applescript” actin
+The script inside “run AppleScript” action [see here](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/SavePDFwithSystemEvents/Run_Script.applescript)
