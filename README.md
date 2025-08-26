@@ -9,4 +9,4 @@ Another challenging topic is naming files and folders. Both Applescript and the 
 This is very useful when AppleScripts are inserted into the flow of Shortcuts actions.
 A POSIX file object is displayed as a **slash**-delimited path preceded by a POSIX file specifier.
 
-In most cases, it is strongly recommended to use this POSIX file object outside of the process finder to define variables that are then used within the process.
+In most cases, it is strongly recommended to use this POSIX file object outside of the process Finder to define variables that are then used within the process.
