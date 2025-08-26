@@ -1,7 +1,7 @@
 # Workflow to print a pdf paginated in a workflow with application “I ❤️ booklet” from Douwere
 
 With ShortCuts, after building the booklet, the printer receives the paginated pdf to be printed 2 pages per side of sheet..
-![screenshot]()
+![screenshot](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/PrintBookletWorkflow/New%20Booklet%20w%20print%20options.png)
 
 
 A shell use command LPR
