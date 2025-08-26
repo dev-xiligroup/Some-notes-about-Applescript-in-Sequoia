@@ -3,6 +3,9 @@
 Following multiple developments on Mac Min M4 with MacOS Sequoia 15.6.1, here are some ideas and tips for AppleScript and the Shortcuts app.
 ## System Events
 If applications are not scriptable, you can use the System Events process, provided you are familiar with the interface elements. The example provided will focus on PDF printing, with choice of name and destination folder.
+
+See the [folder](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/SavePDFwithSystemEvents)
+
 ## Reference to file
 Another challenging topic is naming files and folders. Both Applescript and the Finder use the **colon** (:) as a separator in strings. The 'Posix File' object converts references of files using '/'.
 [this script 1](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/testFolders.applescript)
