@@ -20,3 +20,5 @@ In most cases, it is strongly recommended to use this POSIX file object outside 
 ## Make a new (sub) folder
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.
 [this script](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/ShellBetter2makeFolder.applescript)
+
+## soon more tips...
