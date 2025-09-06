@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.shortcuts.droplet.91971DA1-C1D1-4C48-BDD1-21484283505E</string>
+	<key>LastDateTime</key>
+	<string>20250906-073635</string>
+	<key>Recent_files</key>
+	<array>
+		<string>/Users/imichel/Desktop/Doc_Booklet_automation_250817/Page inclusion.pages</string>
+		<string>/Users/imichel/Desktop/dockbin.plist</string>
+	</array>
+	<key>ShortcutsDropletInDockAsApp</key>
+	<true/>
+	<key>ShortcutsDropletName</key>
+	<string>AppFirstStart_newtest</string>
+</dict>
+</plist>
