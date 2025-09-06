@@ -33,4 +33,7 @@ The PDF contains explanations about shortcuts including those about the code ins
 
 See the [folder with PDF](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/PDF_docs)
 
+## About one shortcut (droplet) and making his preferences file (plist) like current app.
+See the [folder with PDF](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Droplet%20and%20Preferences)
+
 ## soon more tips...
