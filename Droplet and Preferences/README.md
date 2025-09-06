@@ -6,13 +6,16 @@ The Shortcuts app contains shortcuts or droplets, which themselves contain a ser
 Ex. = TestFolderAlias (771ECAF6-D00A-45C5-AC77-B6289F2523ED) 
 As can be seen in the terminal via the command:
 `$ shortcuts list --show-identifiers `
+
 So be careful to check if there is an s at the end of the word shortcut. That's why I prefer to use the word droplet.
 In the Shortcuts editor list, you can choose to display the shortcut in the dock. What happens? macOS adds an application to the Applications folder of the active user. (With a package contents).
+
 If you remove this droplet from the dock, the application actually remains in the application folder...
 If you want to use this example (template), you must first duplicate it and change the name. and that of the first action Text.
 
 ## purposes of the example
 - Create a preferences file (.plist) that can be managed with the defaults command. This file can be used to store a usage history and dates.
+
 - Create a folder Shortcuts/nameofthedroplet within the Application Support folder in ~/Library/. Inside we will add a symbolic line to the preferences file. This folder can be used later to store data for this droplet (file, image).
 
 ## step by step in the template example
@@ -29,6 +32,7 @@ Of course, this is just one example, but it gives you an idea of what you can do
 
 ## About the regex tool
 By using two regex-based actions (Match and Get Group), it is possible to quickly segment the results of scripts, avoiding lines and loops that are difficult to adjust.
+
 In two places:
 - when checking the couple droplet name / Identifier
 - when filling the list of the history
