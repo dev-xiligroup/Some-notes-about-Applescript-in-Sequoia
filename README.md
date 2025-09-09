@@ -1,10 +1,6 @@
 # Some notes about Applescript in Sequoia
 
-### Table of contents
 
-{{TOC}}
-
-Following multiple developments on Mac Min M4 with MacOS Sequoia 15.6.1, here are some ideas and tips for AppleScript and the Shortcuts app.
 ## System Events
 If applications are not scriptable, you can use the System Events process, provided you are familiar with the interface elements. The example provided will focus on PDF printing, with choice of name and destination folder.
 
