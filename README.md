@@ -18,6 +18,11 @@ In most cases, it is strongly recommended to use this POSIX file object outside 
 
 See also this [pdf document](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/PDF_docs/ShCu_ExampleWithInputVariables.pdf) ScreenShots of  Shortcuts. It explains the names of the folders and their paths.
 
+## [UPDATE] from a file path (as string) to a file object
+There are several ways to convert a path (string) into a file object. You can use run AppleScript with his POSIX objet. Here's another way, using only actions. This method does not take into account whether or not the slash / appears at the beginning of the file path like “/Users/iUser/Desktop/thefiletosee.rtf”
+In the **get file from at action**, Two fields must be filled in. The first is the main folder (the root folder you select), the second is path to file (as string).
+If no error, the output is the file object. The file is now available for display (open file) or processing by another program. This folder is independent of the computer where the shortcut is used. On your configuration, you will see the name of your root disk.
+
 ## Make a new (sub) folder
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.
 [this script](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/ShellBetter2makeFolder.applescript)
