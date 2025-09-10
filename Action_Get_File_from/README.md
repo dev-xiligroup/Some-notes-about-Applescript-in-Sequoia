@@ -15,8 +15,8 @@ The result allows you to verify whether or not the file or folder **exists**.
 
 Let's dig deeper to find the causes of crashes or error messages.
 
-On Ventura or Sequoia, it is possible to be based (from) on the root disk to get the **file** as an object from its path string. *But issues occurs with future Tahoe* ???
-For folders, this action and the result don’t like when “from” is lower/deeper than the current user path as object *even in Ventura and Sequoia*...
+On Ventura or Sequoia, it is possible to be based (from) on the root disk to get the **file** as an object from its path string. *But issues occurs with future Tahoe - Thanks peavine* ??? 
+For folders, this action and the result don’t work when “from” is lower/deeper than the current user path as object *even in Ventura and Sequoia*...
 
 ![defining the root of the disk](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/RootPathObj_vr.png)
 
