@@ -24,4 +24,4 @@ Following numerous tests of this action and subsequent ones for displaying or pr
 ![screenshot of droplet’s actions](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/FilePath2fileObj_vr.png)
 
 
-We'll see later on Tahoe.
+We'll see and test later on Tahoe. (M 250910)
