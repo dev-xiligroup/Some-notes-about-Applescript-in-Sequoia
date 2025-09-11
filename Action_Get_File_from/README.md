@@ -26,6 +26,7 @@ For the from field, which waits for an object, the action doesn't like to go bac
 Following numerous tests of this action and subsequent ones for displaying or processing the results, it is clear that this AppleScript provides an effective solution for **processing lists of folders and files in string format starting at root disk** with the powerful action “Get File from at path”.
 ![screenshot of droplet’s actions](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/FilePath2fileObj_vr.png)
 
+Here, the example is given for a single path, but it can apply to complex processes based on a list of paths (stored in string format) in different locations on the disk.
 This process allows you to work with files in the current user folder, as well as in other folders such as 'Users/Shared'.
 
 We'll see and test later on Tahoe. (M 250911)
