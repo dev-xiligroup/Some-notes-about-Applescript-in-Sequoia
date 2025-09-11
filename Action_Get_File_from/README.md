@@ -8,7 +8,7 @@ If no error, the output is the file object. The file is now available for displa
 ![screenshot of droplet’s actions](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/FilePath2fileObj.png)
 To avoid the question when first opening and to avoid permission issues when outside the current user's space, here is another way to declare the root disk. It is based on a very simple AppleScript whose result is put into a variable ROOT_disk.
 
-## More deeper
+## Let's go deeper
 The “Get file from at path” action is very powerful. It can be used for **files** or **folders**. 
 It is an interactive action equivalent to POSIX file in AppleScript.
 The result allows you to verify whether or not the file or folder **exists**.
