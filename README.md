@@ -1,6 +1,7 @@
 # Some notes about Applescript in Sequoia
 
-
+### Table of contents
+Here you will find notes concerning AppleScript and the Shortcuts application. Only the MacOS context is concerned.
 ## System Events
 If applications are not scriptable, you can use the System Events process, provided you are familiar with the interface elements. The example provided will focus on PDF printing, with choice of name and destination folder.
 
@@ -25,7 +26,7 @@ If no error, the output is the file object. The file is now available for displa
 
 ![screenshot of droplet’s actions](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/FilePath2fileObj.png)
 
-[suite in details](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Action_Get_File_from)
+[Here is the rest with more details.](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Action_Get_File_from)
 
 ## Make a new (sub) folder
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.

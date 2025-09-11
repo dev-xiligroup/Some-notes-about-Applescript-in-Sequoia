@@ -1,6 +1,6 @@
 # [UPDATE] from a file path (as string) to a file object
 
-## from the precedent paragraph (copy)
+## from the precedent paragraph in main page (copy)
 There are several ways to convert a path (string) into a file object. You can use run AppleScript with his POSIX objet. Here's another way, using only actions. This method does not take into account whether or not the slash / appears at the beginning of the file path like “/Users/iUser/Desktop/thefiletosee.rtf”
 In the **get file from at action**, Two fields must be filled in. The first is the main folder (the root folder you select), the second is path to file (as string).
 If no error, the output is the file object. The file is now available for display (open file) or processing by another program. This folder is independent of the computer where the shortcut is used. On your configuration, you will see the name of your root disk.
@@ -14,9 +14,12 @@ It is an interactive action equivalent to POSIX file in AppleScript.
 The result allows you to verify whether or not the file or folder **exists**.
 
 Let's dig deeper to find the causes of crashes or error messages.
-
+### File
 On Ventura or Sequoia, it is possible to be based (from) on the root disk to get the **file** as an object from its path string. *But issues occurs with future Tahoe - Thanks peavine* ??? 
+### Folder
 For folders, this action and the result don’t work when “from” is lower/deeper than the current user path as object *even in Ventura and Sequoia*...
+
+For the from field, which waits for an object, the action doesn't like to go back any further than the current user's folder. Although authorization is requested and accepted. This leads to process stoppages. Or strange error messages, or even a freeze requiring a restart. To get around these anomalies, analysis of the result provided by the action via AppleScript offers a few tips. 
 
 ![defining the root of the disk](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/RootPathObj_vr.png)
 
@@ -25,4 +28,4 @@ Following numerous tests of this action and subsequent ones for displaying or pr
 
 This process allows you to work with files in the current user folder, as well as in other folders such as 'Users/Shared'.
 
-We'll see and test later on Tahoe. (M 250910)
+We'll see and test later on Tahoe. (M 250911)
