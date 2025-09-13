@@ -7,7 +7,7 @@ Get type returns easily type for **file**, folder BUT
 - if file extension is rtf or rtfd, return is “Rich text”.
 - if file extension is plist, return Dictionary instead of file 
 
-When permissions are tested (stat -p or stat -Sp to return mode number or xrw line)... It is possible to test the folder (d) that contains inaccessible files of the ‘second user’ (see 6 & 7) (only the AppleScript 'try' command can detect these conditional actions). The shortcut's 'Get file from at path' action stops with a red error message indicating “can view this file”.
+When permissions are tested (stat -p or stat -Sp to return mode number or xrw line)... It is possible to test the folder (d) that contains inaccessible files of the ‘second user’ (see 6 & 7) (only the AppleScript 'try' command can detect these conditional actions). The shortcut's 'Get file from at path' action stops with a red error message indicating “cannot view this file”.
 ## permissions
 The 'do shell script' function can be used to analyse file permissions if they are accessible. As with the Finder folder icon displaying a red no entry sign, neither r nor w are visible in the last two-thirds of the access line.(6)
 
@@ -49,7 +49,9 @@ The 'do shell script' function can be used to analyse file permissions if they a
 }
 ```
 
-## Three screenshots of the tester droplet
+## Three screenshots of the tester droplet (With small overlap)
 ![Part 1/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_1.png)
+continued 2/3
 ![Part 2/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_2.png)
+continued 3/3
 ![Part 3/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_3.png)
