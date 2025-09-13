@@ -27,6 +27,9 @@ If no error, the output is the file object. The file is now available for displa
 ![screenshot of droplet’s actions](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/FilePath2fileObj.png)
 
 [Here is the rest with more details.](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Action_Get_File_from)
+## About Get type shortcuts action
+Below is the result of a test to discover how shortcuts app (and actions) defines files or folders from anywhere on your disk with **Get Type** action.
+[Here more details.](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Action_Get_File_from/GetType)
 
 ## Make a new (sub) folder
 With Process Finder, to use "Make new folder," it is necessary to test for the existence of the object beforehand, which is why the shell command is more efficient.
