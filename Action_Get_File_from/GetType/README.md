@@ -11,7 +11,7 @@ When permissions are tested (stat -p or stat -Sp to return mode number or xrw li
 ## permissions
 The 'do shell script' function can be used to analyse file permissions if they are accessible. As with the Finder folder icon displaying a red no entry sign, neither r nor w are visible in the last two-thirds of the access line.(6)
 
-
+### JSON = Here is the resulting dictionary.
 ```
 {
     "7": {
