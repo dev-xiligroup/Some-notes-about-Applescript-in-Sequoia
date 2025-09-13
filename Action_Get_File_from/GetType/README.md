@@ -50,6 +50,6 @@ The 'do shell script' function can be used to analyse file permissions if they a
 ```
 
 ## Three screenshots of the tester droplet
-![Part 1/3]()
-![Part 2/3]()
-![Part 3/3]()
+![Part 1/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_1.png)
+![Part 2/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_2.png)
+![Part 3/3](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/blob/main/Action_Get_File_from/GetType/mysteriesOFGet_type_3.png)
