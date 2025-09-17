@@ -31,3 +31,11 @@ This process allows you to work with files in the current user folder, as well a
 [See tester in that page...](https://github.com/dev-xiligroup/Some-notes-about-Applescript-in-Sequoia/tree/main/Action_Get_File_from/GetType)
 
 We'll see and test later on Tahoe. (M 250911)
+[update 250917]
+After more than a day of struggles, I was able to install/clone the Sequoia system on an external SSD drive and update it to Tahoe this morning. CCCloner was the solution to make this bootable SSD.
+Tests with Shortcuts on our issue with the “Get File From at path” action and permissions led to the following conclusions.
+
+The shortcut/droplet from Sequoia, where it was valid with a “from” as the root of the disk, works on Tahoe with out request ?.
+After duplication (i.e., a new shortcut), there is a new request for authorization on this root, and when you launch it, you get the red error you reported.
+Since AppleScript is still present in OS26, declaring the root of the disk via a tiny script (posix) works as expected (and as described in this Github repository).
+
